@@ -1,2 +1,11 @@
-# techtogether-2023
-An ML chatbot which gives advice on how to start a garden based on a user's conditions.  Our project for techTogether 2023
+# GreenThumb (IDK we can change this) 
+
+## Contributors
+Our names
+
+## What does this do?
+Lorem ipsum dolor
+
+## Links
+Lorem Ipsum dolor
+[Starting with Spring](https://spring.io/guides/tutorials/rest/)
