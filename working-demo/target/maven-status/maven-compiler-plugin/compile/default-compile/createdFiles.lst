@@ -1,0 +1,4 @@
+cc/vayne/controller/Controller.class
+cc/vayne/Application.class
+cc/vayne/dto/ResponseModel.class
+cc/vayne/handler/CommonExceptionHandler.class
