@@ -1,11 +1,11 @@
-# GreenThumb (IDK we can change this) 
+# GreenThumb 🌿
 
 ## Contributors
-Our names
+[Our names]
 
-## What does this do?
-Lorem ipsum dolor
+## What does this thing do?
+GreenThumb is an AI chatbot which recieves input on your living situation + conditions, and provides suggestions on how you can begin a garden at your location.
 
-## Links
-Lorem Ipsum dolor
-[Starting with Spring](https://spring.io/guides/tutorials/rest/)
+## Developer Links
+- [Starting with Spring](https://spring.io/guides/tutorials/rest/)
+- [ChatGPT spring boot starter](https://github.com/flashvayne/chatgpt-spring-boot-starter)
