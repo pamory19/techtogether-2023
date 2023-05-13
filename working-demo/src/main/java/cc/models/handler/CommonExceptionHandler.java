@@ -1,6 +1,6 @@
-package cc.vayne.handler;
+package cc.models.handler;
 
-import cc.vayne.dto.ResponseModel;
+import cc.models.dto.ResponseModel;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;

@@ -16,18 +16,4 @@ logbook:
   format:
     style: http
 chatgpt:
-  api-key: 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  #api-key. It can be generated in this link https://platform.openai.com/account/api-keys
-# some properties as below have default values. For descriptions of these fields, please refer to https://platform.openai.com/docs/api-reference/completions/create and https://platform.openai.com/docs/api-reference/chat/create
-#  url: https://api.openai.com/v1/completions
-#  model: text-davinci-003
-#  max-tokens: 500
-#  temperature: 1.0
-#  top-p: 1.0
-#  multi:
-#    url: https://api.openai.com/v1/chat/completions
-#    model: gpt-3.5-turbo
-#    max-tokens: 500
-#    temperature: 1.0
-#    top-p: 1.0
-#  image:
-#    url: https://api.openai.com/v1/images/generations
+  api-key: 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

@@ -1,4 +1,4 @@
-package cc.vayne.dto;
+package cc.models.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
