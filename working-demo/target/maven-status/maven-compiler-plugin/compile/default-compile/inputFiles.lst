@@ -1,4 +1,4 @@
-/Users/dev/Documents/hack/newtest/demo-chatgpt-spring-boot-starter/src/main/java/cc/vayne/handler/CommonExceptionHandler.java
-/Users/dev/Documents/hack/newtest/demo-chatgpt-spring-boot-starter/src/main/java/cc/vayne/controller/Controller.java
-/Users/dev/Documents/hack/newtest/demo-chatgpt-spring-boot-starter/src/main/java/cc/vayne/Application.java
-/Users/dev/Documents/hack/newtest/demo-chatgpt-spring-boot-starter/src/main/java/cc/vayne/dto/ResponseModel.java
+/Users/dev/Documents/hack/techtogether-2023/working-demo/src/main/java/cc/models/handler/CommonExceptionHandler.java
+/Users/dev/Documents/hack/techtogether-2023/working-demo/src/main/java/cc/models/Application.java
+/Users/dev/Documents/hack/techtogether-2023/working-demo/src/main/java/cc/models/dto/ResponseModel.java
+/Users/dev/Documents/hack/techtogether-2023/working-demo/src/main/java/cc/models/controller/Controller.java
