@@ -3,7 +3,7 @@ import "../stylesheets/MessageBox.css";
 import { useNavigate } from "react-router-dom";
 import NavBar from "./NavBar";
 
-const BASE_URL = "";
+const BASE_URL = "http://localhost:8080";
 
 const PROMPTS = [
   [

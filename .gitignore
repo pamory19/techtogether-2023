@@ -1,5 +1,6 @@
 # Pom
 application.yml
+logs/
 
 # Compiled class file
 *.class

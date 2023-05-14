@@ -12,6 +12,7 @@ public class CommonExceptionHandler {
     @ExceptionHandler(RuntimeException.class)
     public ResponseModel<String> runtimeExceptionHandler(RuntimeException e) {
         log.error("exception", e);
+
         return new ResponseModel<>(500, "error", e.getMessage());
     }
 
