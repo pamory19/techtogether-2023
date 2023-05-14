@@ -1,0 +1,53 @@
+#asphodel {
+  position: absolute;
+  height: 90vh;
+  left: 0;
+  bottom: 0;
+}
+
+body {
+  background-color: var(--light-green);
+  font-family: 'DM Sans', sans-serif;
+}
+
+button.main-btn {
+  padding: 1em 2em;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: bold;
+  font-size: 12pt;
+  background-color: #1F4133;
+  background-image: linear-gradient(#6ADDB1, #1F4133);
+  color: #ffffff;
+  border: 0;
+  border-radius: 10px;
+  transition: .5s transform;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+#moving-plant {
+  max-width: 100px;
+  position: absolute;
+  margin-top: -80px;
+  margin-left: 115px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 40pt;
+  font-weight: normal;
+}
+
+.svg-holder img {
+  height: 100%;
+  position: absolute;
+}

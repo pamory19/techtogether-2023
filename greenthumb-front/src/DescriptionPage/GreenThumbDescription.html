@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My HTML File</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background-color: #F3ECD4;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+        }
+
+        .image {
+            width: 1400px;
+            height: auto;
+            margin-right: 20px;
+        }
+
+        .paragraphs {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .paragraphs p {
+            font-size: 30px;
+            text-align: center;
+        }
+
+        header a {
+            margin-right: 10px;
+            font-family: 'DM Sans', sans-serif;
+            color: black; /* Add this line to change the link color */
+            text-decoration: none; /* Add this line to remove the underline */
+        }
+
+        header a:not(:last-child) {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="https://example.com">🌿 GreenThumb</a>
+        <a href="https://example.com">About us</a>
+    </header>
+    <div class="container">
+        <img src="http://localhost/DescriptionPage/flower.png" alt="Image Description" class="image">
+        <div class="paragraphs">
+            <p>Inspired by the theme of nurturing each other and the environment, our team developed a tool to help users live greener lives.</p>
+            <p>GreenThumb is an AI chat-bot that provides suggestions on how you can grow your very own garden!</p>
+            <p>These suggestions will be customized to your personal environment and tailored to the input you provide to GreenThumb. You will be given three plant matches to start your garden by the end of the interaction!</p>
+            <p>The AI chat-box utilizes OpenAI’s chatGPT to create a fun, informative, and interactive experience with GreenThumb.</p>
+            <p>🌸 Let the gardening begin! 🌸.</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,17 @@
+nav {
+  padding: 1em;
+  position: fixed;
+  border-bottom: 1px solid var(--text-primary);
+  width: 100vw;
+}
+
+a {
+  color: var(--text-primary);
+  text-decoration: none;
+  transition: .3s color;
+  padding: 0 1em;
+}
+
+a:hover {
+  color: white;
+}

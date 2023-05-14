@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GIF Example</title>
+    <style>
+        body {
+            background-color: #ABDBC9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+            margin: 0;
+            overflow: hidden; /* Hide scrollbars */
+        }
+        .gif-container {
+            text-align: center;
+        }
+        .gif-container img {
+            width: 100%;
+            height: auto;
+        }
+        .image-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .image-container img {
+            width: 100%;
+            height: auto;
+            max-width: 150px; /* Adjust the maximum width as needed */
+        }
+        .image-container2 {
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-start;
+            position: absolute;
+            top: 0px;
+            right: 1055px;
+        }
+        .image-container4 {
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-start;
+            position: absolute;
+            top: -500px;
+            left: 1000px;
+        }
+    </style>
+</head>
+<body>
+    <div class="gif-container">
+        <img src="http://localhost/LoadingPage/cactus.gif" alt="Your GIF">
+    </div>
+    <div class="image-container">
+        <img src="http://localhost/LoadingPage/Loading.png" alt="Another Image">
+    </div>
+    <div class="image-container2">
+        <img src="http://localhost/LoadingPage/flowerleft.png" alt="Left Image">	
+    </div>
+    <div class="hidden-bar">
+        <!-- Bar content here -->
+    </div>
+    <div class="image-container4">
+        <img src="http://localhost/LoadingPage/flowerbottom.png" alt="Left Image">
+    </div>
+</body>
+</html>

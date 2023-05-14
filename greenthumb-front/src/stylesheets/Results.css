@@ -1,0 +1,57 @@
+.accordion {
+  display: flex;
+}
+
+body {
+  background-color: white;
+}
+
+.darken-bg-overlay {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-color: rgba(1, 66, 32, 0.405);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.results-card {
+  background-image: linear-gradient(#CBEEE1, #ABDBC9);
+  border: 1px solid;
+  padding: 1em;
+  border-radius: 10px;
+  margin: 1em;
+}
+
+.accordion .results-card {
+  margin: 1em;
+}
+
+.overlay-tab {
+  padding: 2em;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid;
+  margin: 1em;
+  max-width: 600px;
+  max-height: 90vh;
+  overflow: scroll;
+  position: relative;
+}
+
+.overlay-tab svg {
+  position: absolute;
+  right: 1em;
+  top: 1em;
+}
+
+#results-holder {
+  max-width: 600px;
+}
+
+#results-holder h2 {
+  text-align: center;
+}
