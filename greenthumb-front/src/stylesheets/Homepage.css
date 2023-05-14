@@ -10,7 +10,7 @@ body {
   font-family: 'DM Sans', sans-serif;
 }
 
-button {
+button.main-btn {
   padding: 1em 2em;
   font-family: 'Work Sans', sans-serif;
   font-weight: bold;

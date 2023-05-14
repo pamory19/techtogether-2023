@@ -20,7 +20,7 @@ function HomePage() {
           </h1>
         </div>
         <div>
-          <button>Get Started!</button>
+          <button class="main-btn">Get Started!</button>
           <div id="moving-plant">
             <Lottie animationData={movingPlant} />
           </div>
