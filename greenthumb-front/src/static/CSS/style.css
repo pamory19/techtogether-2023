@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Hiragino Sans W3", "Hiragino Kaku Gothic ProN", "MS PGothic", sans-serif;
+  background-color:#467260;
+}
+
+/* *********************************
+header
+*********************************** */
+header {
+  height: 50px;
+  width: 100%;
+  padding: 0px 15px;
+  background-color: #467260;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  border:solid;
+  border-width:0px 0px 1px 0px;
+  border-color:#254738
+}
+
+logo {
+  width: 200%;
+  height: 200%;
+}
+
+nav {
+    margin: 0 0 0 auto;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-aboutus {
+    color: #cbeee1;
+    text-decoration: none;
+    display: block;
+    line-height: 60px;
+    padding: 0 20px;
+  }
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    line-height: 60px;
+    padding: 0 20px;
+  }
+
+/* *********************************　
+main
+*********************************** */
+main {
+  padding: 60px;
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  top: 0;
+}
+.content_title{
+    color:#cbeee1;
+}
+.container1{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin: 10px;
+}
+.container2{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin: 10px 0px 10px 35px;
+    align-items:flex-end
+}
+
+img.face{
+    width: 80%;
+    height: 80%;
+}
+
+
+
+
+
+
+
+
+
+/* *********************************　
+footer
+*********************************** */
+footer {
+  width: 100%; 
+  height: 45px; 
+  display: inline-block;
+  background: #467260; 
+  text-align: center;
+  bottom: 0;
+}
+
+.footer_logo {
+  line-height: 50px;
+  /*
+  border:solid;
+  border-width:1px 0px 0px 0px;
+  border-color:#254738
+  */
+}
