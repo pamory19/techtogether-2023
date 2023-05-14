@@ -3,9 +3,13 @@ import "../stylesheets/Results.css"
 import NavBar from "./NavBar";
 
 import { AiOutlineCloseCircle } from "react-icons/ai";
+import { useLocation } from "react-router-dom";
 
 function ResultsPage() {
   const [popupVisible, setPopupVisible] = useState(false);
+
+  const {state} = useLocation();
+  const { results } = state;
 
   function PopUp({plant}) {
     return (
@@ -28,10 +32,10 @@ function ResultsPage() {
         <section id="results-holder">
           <article className="results-card">
             <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tempor efficitur ipsum eu ultrices. Aliquam eget ipsum eget ex placerat scelerisque et accumsan mi. Maecenas pulvinar viverra purus non commodo. In at pellentesque leo. Phasellus sit amet tincidunt nulla. Nullam eu vulputate libero. Donec interdum placerat nisl, id placerat justo viverra non. Cras quis faucibus nibh. In tristique magna ut libero hendrerit aliquam. Etiam at dignissim ante, sit amet consequat neque.
+              {results}
             </p>
           </article>
-          <h2>Your Plant Matches</h2>
+          {/* <h2>Your Plant Matches</h2>
           <div className="accordion">
             <article onClick={() => {setPopupVisible(true)}} className="results-card">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -42,7 +46,7 @@ function ResultsPage() {
             <article onClick={() => {setPopupVisible(true)}} className="results-card">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </article>
-          </div>
+          </div> */}
         </section>
       </main>
       {popupVisible ? <PopUp /> : <></>}

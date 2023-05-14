@@ -6,8 +6,8 @@ function NavBar() {
 
   return (
     <nav>
-      <a href=".">🌿 GreenThumb</a>
-      <a href=".">About Us</a>
+      <a href="/">🌿 GreenThumb</a>
+      {/* <a href=".">About Us</a> */}
     </nav>
   )
 }
